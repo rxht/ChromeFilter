@@ -1,0 +1,49 @@
+html {
+  width: 250px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  margin: 0;
+  padding: 0;
+}
+div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.menus {
+  padding: 8px;
+}
+.menu-item {
+  display: flex;
+  height: 32px;
+  margin-top: 8px;
+}
+.item-name {
+  width: 40%;
+  text-align: center;
+  line-height: 32px;
+}
+button {
+  height: 100%;
+  width: 60%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  background-color: #4395ff;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4e83fd;
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
