@@ -1,9 +1,9 @@
 
 // https://developer.chrome.com/docs/apps/api_other/
 {
-  "name": "荣轩浩制作",
-  "description": "🍀 ©荣轩浩制作 @2021 🌾",
-  "version": "10.12",
+  "name": "页面元素拦截",
+  "description": "🎄 ©荣轩浩制作 @2021 🔥✨",
+  "version": "0.0.01",
   "manifest_version": 3,
   "permissions": ["scripting","activeTab"],
   "icons": {
