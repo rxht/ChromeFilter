@@ -1,11 +1,10 @@
 
-// https://developer.chrome.com/docs/apps/api_other/
 {
   "name": "页面元素拦截",
   "description": "🎄 ©荣轩浩制作 @2021 🔥✨",
   "version": "0.0.01",
   "manifest_version": 3,
-  "permissions": ["scripting","activeTab"],
+  "permissions": ["storage", "scripting", "activeTab"],
   "icons": {
     "16": "/images/logo16.png",
     "32": "/images/logo32.png",
@@ -21,5 +20,6 @@
   ],
   "action": {
     "default_popup": "action/index.html"
-  }
+  },
+  "options_page": "options/index.html"
 }
